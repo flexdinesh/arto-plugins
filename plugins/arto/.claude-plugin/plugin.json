@@ -1,0 +1,12 @@
+{
+  "name": "arto",
+  "version": "0.3.0",
+  "description": "Publish posts to arto from your coding agent",
+  "author": {
+    "name": "Dinesh Pandiyan",
+    "url": "https://github.com/flexdinesh"
+  },
+  "homepage": "https://getarto.app",
+  "repository": "https://github.com/flexdinesh/arto-plugins",
+  "license": "MIT"
+}

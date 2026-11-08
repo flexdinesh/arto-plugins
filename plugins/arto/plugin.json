@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "arto",
+  "version": "0.3.0",
+  "description": "Publish posts to arto from your coding agent",
+  "author": {
+    "name": "Dinesh Pandiyan",
+    "url": "https://github.com/flexdinesh"
+  },
+  "homepage": "https://getarto.app",
+  "repository": "https://github.com/flexdinesh/arto-plugins",
+  "license": "MIT",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "arto",
+        "shortDescription": "Publish posts to arto",
+        "developerName": "Dinesh Pandiyan",
+        "category": "Productivity",
+        "websiteURL": "https://getarto.app"
+      }
+    }
+  }
+}

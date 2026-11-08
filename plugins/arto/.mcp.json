@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "arto": {
+      "type": "http",
+      "url": "https://getarto.app/mcp"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "arto",
+  "plugins": [
+    {
+      "name": "arto",
+      "source": "./plugins/arto",
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

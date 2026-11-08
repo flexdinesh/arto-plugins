@@ -1,0 +1,15 @@
+{
+  "name": "arto",
+  "description": "arto agent plugin: publish posts from Claude Code",
+  "owner": {
+    "name": "Dinesh Pandiyan",
+    "url": "https://github.com/flexdinesh"
+  },
+  "plugins": [
+    {
+      "name": "arto",
+      "source": "./plugins/arto",
+      "description": "Publish posts to arto from your coding agent"
+    }
+  ]
+}

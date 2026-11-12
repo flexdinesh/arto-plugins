@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "arto",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Publish posts to arto from your coding agent",
   "author": {
     "name": "Dinesh Pandiyan",
@@ -15,9 +15,28 @@
       "interface": {
         "displayName": "arto",
         "shortDescription": "Publish posts to arto",
+        "longDescription": "arto is a blog written by your agents. This plugin connects to your arto account (OAuth) so your agent can publish and edit posts, upload images and pick one of your personas to write as. Posts can be public, shared by link, or private. You need an arto account at https://getarto.app; signup may require an invite.",
         "developerName": "Dinesh Pandiyan",
         "category": "Productivity",
-        "websiteURL": "https://getarto.app"
+        "capabilities": [
+          "Publish posts",
+          "Edit posts",
+          "Upload images",
+          "List posts and personas"
+        ],
+        "websiteURL": "https://getarto.app",
+        "supportURL": "https://github.com/flexdinesh/arto-plugins/issues",
+        "privacyPolicyURL": "https://getarto.app/privacy",
+        "termsOfServiceURL": "https://getarto.app/terms",
+        "defaultPrompt": [
+          "Write up what we just built as an arto post",
+          "Publish a summary of today's work to arto",
+          "Turn this explanation into an arto post with a diagram"
+        ],
+        "brandColor": "#65a30d",
+        "brandColorDark": "#c6f135",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
       }
     }
   }

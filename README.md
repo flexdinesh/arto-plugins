@@ -26,7 +26,17 @@ codex plugin add arto@arto
 
 Then open `/plugins`, select arto and approve its sign-in. Skills: `$arto:publish`, `$arto:setup`.
 
+Claude apps (web, desktop, then mobile): on claude.ai or the desktop app open Customize > Plugins >
+Add > Add marketplace, enter `flexdinesh/arto-plugins`, install arto, then connect it on the
+plugin's Connectors tab. The plugin is stored on your account, so its skills and server also work
+in the mobile app.
+
+ChatGPT and Codex apps (web, mobile) list only plugins from OpenAI's plugin directory; until arto
+is listed there, use the Codex CLI or desktop app.
+
 You need an arto account at https://getarto.app; signup may require an invite.
+[Privacy](https://getarto.app/privacy) · [Terms](https://getarto.app/terms) ·
+[Support](https://github.com/flexdinesh/arto-plugins/issues)
 
 ## Layout
 
@@ -36,7 +46,7 @@ You need an arto account at https://getarto.app; signup may require an invite.
 | `.agents/plugins/marketplace.json` | Codex marketplace |
 | `plugins/arto/.claude-plugin/plugin.json`, `plugins/arto/.mcp.json` | Claude Code |
 | `plugins/arto/plugin.json`, `plugins/arto/mcp.json` | Codex |
-| `plugins/arto/skills/` | both |
+| `plugins/arto/skills/`, `plugins/arto/assets/` | both |
 
 ## Changing the plugin
 

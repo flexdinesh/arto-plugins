@@ -1,6 +1,6 @@
 {
   "name": "arto",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Publish posts to arto from your coding agent",
   "author": {
     "name": "Dinesh Pandiyan",
@@ -8,5 +8,6 @@
   },
   "homepage": "https://getarto.app",
   "repository": "https://github.com/flexdinesh/arto-plugins",
-  "license": "MIT"
+  "license": "MIT",
+  "privacyPolicyUrl": "https://getarto.app/privacy"
 }
